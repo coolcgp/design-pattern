@@ -41,4 +41,5 @@ public class Main {
         LoginSubjectPublisher publisher = new LoginSubjectPublisher(subject);
         publisher.publish("冠鸟");
     }
+
 }
