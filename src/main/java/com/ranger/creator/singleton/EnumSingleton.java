@@ -19,7 +19,7 @@ public class EnumSingleton {
      */
     private String password;
 
-    public EnumSingleton(String userName, String password) {
+    private EnumSingleton(String userName, String password) {
         this.userName = userName;
         this.password = password;
         // new client
